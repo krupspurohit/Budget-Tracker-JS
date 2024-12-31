@@ -61,7 +61,7 @@ function addTransaction(source, amount) {
 		id: Math.floor(Math.random() * 100000),
 		source: source,
 		amount: amount,
-		time: `${time.toLocaleTimeString()} ${time.toLocaleDateString()}`,
+		time: `${time.toLocaleTimeString('en-GB')} ${time.toLocaleDateString('en-GB')}`,
 	};
 
 	transactions.push(transaction);
